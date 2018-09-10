@@ -5,8 +5,8 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:DelOpg1"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="US Baby Names" Height="280" Width="320" Loaded="OnLoad">
     <Grid>
-        
+        <ListBox x:Name="firstDecadeTopNames" HorizontalAlignment="Left" Height="220" Width="280" Margin="10,10,0,0" VerticalAlignment="Top"/>
     </Grid>
 </Window>
