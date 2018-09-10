@@ -37,7 +37,7 @@ namespace DelOpg1
                 // The using statement also closes the StreamReader.
                 using (StreamReader sr = new StreamReader(filename))
                 {
-                    // Reads the 10 first lines from the file.
+                    // Reads the 10 first lines from the file and outputs them in the ListBox.
                     for (int i = 0; i < 10; ++i)
                         firstDecadeTopNames.Items.Add(sr.ReadLine());
                 }
